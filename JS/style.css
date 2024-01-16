@@ -1,0 +1,76 @@
+.logo {
+  display: block;
+  /* align-items: center; */
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+body {
+    height: 100vh;
+  /* background-image: linear-gradient(rgb(64, 93, 230),rgb(88, 81, 219),rgb(131, 58, 180),rgb(193, 53, 132),rgb(225, 48, 108),rgb(253, 29, 29),rgb(245, 96, 64),rgb(247, 119, 55),rgb(252, 175, 69),rgb(255, 220, 128)); */
+  /* background-image: linear-gradient(pink,brown); */
+  background-image: linear-gradient(#A79078,#BDB19A,#74655E,#563D39);
+  background-image: linear-gradient(#597199,#FFFFFF,#2E4682,#1D306D);
+}
+
+.container {
+  max-width: 955px;
+  /* background-color: palevioletred; */
+  border: 2px solid black;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y:auto;
+  margin-bottom: 23px;
+}
+
+.message {
+  background-color: #8b9fc2;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  /* color: beige; */
+  border: 2px solid black;
+  border-radius: 10px;
+  /* margin-bottom: 23px; */
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+    display: block;
+    margin:auto; 
+    text-align: center;
+    max-width: 1050px;
+    width: 100%;
+}
+/* 985 */
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    display: center;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    height:38px;
+    width: 5%;
+
+}
+
+
+
+
